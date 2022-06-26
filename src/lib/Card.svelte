@@ -1,9 +1,9 @@
 <script lang="ts">
-    export let iconPaths:[string];
+    export let iconPaths:string[];
     export let title: String;
-    export let comingSoon: Boolean
+    export let comingSoon: Boolean = false;
     export let description: String;
-    export let link: string;
+    export let link: string = "";
 </script>
 
 { #if comingSoon }

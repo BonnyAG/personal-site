@@ -30,28 +30,28 @@
 <h1 class="text-4xl xl:text-5xl text-slate-900 tracking-wide mt-8 font-black font-title mb-5 hover:text-sky-600 transition ease-in-out uppercase">Adam Bonny</h1>
 
 <Card
-    comingSoon="true" 
+    comingSoon={true} 
     title="Blog Posts" 
     description="My thoughts on several topics related to tech... or not."
     iconPaths={firstIcon}
 />
 
 <Card
-    comingSoon="true"
+    comingSoon={true}
     title="Resume"
     description="What I've been up to over the years."
     iconPaths={secondIcon}
 />
 
 <Card
-    comingSoon="true"
+    comingSoon={true}
     title="Filmmaking"
     description="Different filmmaking projects I've been involved in."
     iconPaths={thirdIcon}
 />
 
 <Card
-    comingSoon="true"
+    comingSoon={true}
     title="Hire Me"
     description="Like my work? Contact me and let's see what we can make together!"
     iconPaths={fourthIcon}
